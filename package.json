@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "start": "npx serve",
+    "server": "npx json-server --port=8000 --watch db.json"
+  }
+}
