@@ -1,3 +1,3 @@
-export const Header = (props) => `
-    <div>${props.title}</div>
+export const Header = ({ title }) => `
+    <div>${title}</div>
 `;

@@ -1,5 +1,5 @@
-export const Counter = ({ value }) => `
-  <div>Counter: <span id="counter">${value}</span></div>
+export const Counter = ({ counter }) => `
+  <div>Counter: <span id="counter">${counter}</span></div>
   <button id="inc" type="button">+</button>
   <button id="dec" type="button">-</button>
 `;

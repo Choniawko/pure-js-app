@@ -4,6 +4,6 @@ import { TaskList } from "./Task/TaskList.js";
 
 export const App = (state) => `
     ${Header({ title: "Title" })}
-    ${Counter({ value: state.value })}
+    ${Counter({ counter: state.counter })}
     ${TaskList({ tasks: state.tasks })}
 `;
